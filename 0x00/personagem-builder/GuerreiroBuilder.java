@@ -1,4 +1,4 @@
-public class GuerreiroBuilder implements   Builder{
+public class GuerreiroBuilder implements Builder{
     private String nome;
     private TipoPersonagem tipo;
     private int inteligencia;
