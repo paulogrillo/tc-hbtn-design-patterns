@@ -8,6 +8,6 @@ public class Guerreiro extends Personagem {
 
     @Override
     public double getDanoAtaque() {
-        return (getForca() * 0.5) + (getDestreza() * 0.35) + (getVigor() * 0.1) + (getInteligencia() * 0.05);
+        return (getForca() * 0.8) + (getVigor() * 0.05) + (getDestreza() * 0.1) + (getInteligencia() * 0.05);
     }
 }
