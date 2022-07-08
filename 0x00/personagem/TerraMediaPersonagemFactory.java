@@ -5,7 +5,7 @@ public class TerraMediaPersonagemFactory extends PersonagemFactory{
        if(tipo == TipoPersonagem.MAGO){
            return new Mago(nome, 10, 2, 5, 3, 4);
        } else if (tipo == TipoPersonagem.GUERREIRO) {
-           return new Guerreiro(nome, 1,6, 8,5,10);
+           return new Guerreiro(nome, 1,8, 5,10,6);
        } else if (tipo == TipoPersonagem.LADRAO) {
            return new Ladrao(nome, 2, 6, 8, 5, 10);
        }
