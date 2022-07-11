@@ -1,7 +1,6 @@
-import java.util.ArrayList;
 import java.util.List;
 
-public class BebidaComAcucar extends  BebidaDecorator{
+public class BebidaComAcucar extends BebidaDecorator{
 
     public BebidaComAcucar(Bebida bebidaDecorada) {
         super(bebidaDecorada);
@@ -16,7 +15,7 @@ public class BebidaComAcucar extends  BebidaDecorator{
     }
 
     @Override
-    public Double obterPreco() {
+    public double obterPreco() {
         return super.obterPreco() + 1.9;
     }
 }

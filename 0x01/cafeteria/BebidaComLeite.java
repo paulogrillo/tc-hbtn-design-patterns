@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.List;
 public class BebidaComLeite extends BebidaDecorator{
     public BebidaComLeite(Bebida bebidaDecorada) {
@@ -14,7 +13,7 @@ public class BebidaComLeite extends BebidaDecorator{
     }
 
     @Override
-    public Double obterPreco() {
+    public double obterPreco() {
         return super.obterPreco() + 3.2;
     }
 

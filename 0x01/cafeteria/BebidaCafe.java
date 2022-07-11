@@ -12,7 +12,7 @@ public class BebidaCafe extends Bebida{
     }
 
     @Override
-    public Double obterPreco() {
+    public double obterPreco() {
         return 5.35;
     }
 }
