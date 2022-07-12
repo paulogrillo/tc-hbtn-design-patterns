@@ -1,0 +1,21 @@
+Design Patterns - Arquitetura Hexagonal
+
+Arquitetura hexagonal em desenvolvimento de softwere, é um padrão que consiste na arquitetura de portas e adaptadores.
+Foi elaborada em 2005 por Alistair Cockburn. O padrão visa a criação de componentes de aplicação fracamente acoplados,
+facilitando a escala da aplicação e mantendo a aplicação limpa.
+
+Entre os benefícios desse tipo de arquitetura, podemos identificar os mais relevantes sendo, a separação da camada de
+domínio da aplicação, mantém baixo acoplamento, trazendo menos impactos em mudanças de tecnologia, infraestrutura e dependências.
+
+
+A Arquitetura Limpa ou Clean Architecture tem uma semelhança a Arquitetura Hexagonal, mas segue o outra forma de representar
+a hierarquia entre as camadas, mantendo as premissas de isolamento e inversão de dependências.
+
+
+Em todas as áreas técnicas sofremos com o problema de Overengineering, que é o ato de projetar um produto ou fornecer
+uma solução para um problema de maneira elaborada ou complicada, onde uma solução mais simples pode ser demonstrada
+com a mesma eficiência e eficácia do projeto original.
+
+Em desenvolvimento de softwere temos ue ter o cuidado de usar
+esse tipo de arquitetura em aplicações que não terá escala, e nem manutenções constantes, temos que analisar se realmente
+é necessário implementar esse padrão, por causa de sua complexidade e demanda de desenvolvimento.
